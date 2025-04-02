@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anant Shaynum Pathak - Resume</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            color: #007bff;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .skill-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+        }
+
+        .skill-category {
+            margin-bottom: 10px;
+        }
+
+        .skill-category-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #007bff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .experience-item {
+            margin-bottom: 15px;
+            display: grid;
+            grid-template-columns: 1fr auto; /* Two columns: title/details and date */
+            align-items: start;  /* Align items to the top */
+            gap: 10px;
+        }
+
+        .experience-title-details { /* Container for title and details */
+            grid-column: 1; /* Span one column */
+        }
+
+        .experience-date {
+            font-style: italic;
+            color: #777;
+            text-align: right;
+            grid-column: 2; /* Place in the second column */
+        }
+
+        .experience-details {
+            margin-top: 5px;
+        }
+
+        .education-item {
+            margin-bottom: 10px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+        }
+
+        .education-degree {
+            font-weight: bold;
+        }
+
+        .education-date {
+            font-style: italic;
+            color: #777;
+            text-align: right;
+        }
+
+        @media (max-width: 768px) {
+            .experience-item, .education-item {
+                grid-template-columns: 1fr; /* Single column on smaller screens */
+            }
+
+            .experience-date, .education-date {
+                text-align: left;
+                margin-top: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Anant Shaynum Pathak</h1>
+            <div class="contact-info">
+                <p>+917987724968 | anantpathak4@gmail.com</p>
+                <p>158 Adhartal, Jabalpur, (M.P) 482001</p>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2 class="section-title">Summary</h2>
+            <p>Detail-oriented B.Tech graduate in Computer Science and Engineering with a strong foundation in software development principles and one year of hands-on experience as a Junior Software Developer. Experienced in contributing to the design and development of web applications during academic projects and professional internships. Proficient in front-end and back-end technologies with a keen interest in solving complex problems using innovative approaches. A collaborative team player with excellent communication skills, eager to apply academic knowledge and practical experience to contribute effectively to software development projects.</p>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skill-list">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Technical Skills</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                        <li>RESTful APIs</li>
+                        <li>SQL (MySQL)</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>Visual Studio Code</li>
+                        <li>Eclipse</li>
+                        <li>HTTP</li>
+                        <li>JSON</li>
+                        <li>AJAX</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Other Skills</h3>
+                    <ul>
+                        <li>Problem-Solving</li>
+                        <li>Collaboration</li>
+                        <li>Communication</li>
+                        <li>Time Management</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-item">
+                <div class="experience-title-details">
+                    <div class="experience-title">Jr. Software Developer</div>
+                    <div class="experience-details">
+                        <p>Amaze Inc. (Bangalore)</p>
+                        <ul>
+                            <li>Developed and maintained responsive web applications using Angular and React frameworks.</li>
+                            <li>Collaborated with cross-functional teams to deliver integrated solutions.</li>
+                            <li>Implemented front-end functionality and user interface components using HTML, CSS, TypeScript, JavaScript, Angular, and React.</li>
+                            <li>Participated actively in Agile/Scrum meetings, sprint planning, and code reviews to ensure the timely delivery of high-quality software products.</li>
+                            <li>Resolved bugs and performance issues through effective troubleshooting, debugging, and refactoring of the codebase.</li>
+                            <li>Contributed to design and architecture discussions, providing insights and suggestions to enhance application scalability and performance.</li>
+                            <li>Utilized version control systems like Git for code management and collaborated with team members using platforms such as GitHub.</li>
+                            <li>Engaged in continuous learning and self-improvement to stay updated with the latest technologies and frameworks in Angular, React, and front-end development.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-date">Jan 2023 - Apr 2024</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <div class="education-degree">B.Tech</div>
+                <div class="education-date">06/2021</div>
+                <p>Global Engineering College | Jabalpur, Madhya Pradesh</p>
+            </div>
+            <div class="education-item">
+                <div class="education-degree">Higher Secondary Certificate</div>
+                <div class="education-date">05/2016</div>
+                <p>Christ Church Boy's Senior Secondary School | Jabalpur, Madhya Pradesh</p>
+            </div>
+            <div class="education-item">
+                <div class="education-degree">10th (CBSE)</div>
+                <div class="education-date">05/2014</div>
+                <p>Christ Church Boy's Senior Secondary School | Jabalpur, Madhya Pradesh</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
